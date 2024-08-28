@@ -1,4 +1,4 @@
-### 1. Amazon Web Services (AWS)
+### Amazon Web Services (AWS)
 
 - **Nível de Disponibilidade Garantida:**
   - **AWS IoT Core:** 99.9% de disponibilidade mensal.
@@ -29,8 +29,6 @@
   - **Developer:** Tempo de resposta até 12 horas.
   - **Business:** Tempo de resposta até 1 hora.
   - **Enterprise:** Tempo de resposta até 15 minutos.
-
-
 
 ## Referências:
 https://aws.amazon.com/lambda/sla/
