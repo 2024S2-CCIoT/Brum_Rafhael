@@ -373,3 +373,24 @@ resposta que variam de acordo com o plano escolhido:
 - Para empresas que precisam de suporte imediato e respostas rápidas,
   **Azure** pode ser uma opção ligeiramente melhor nos níveis
   intermediários.
+
+
+
+
+////
+
+
+
+# Introdução
+
+As **aplicações industriais de Internet das Coisas (IIoT)** vêm transformando os processos de manufatura e produção, promovendo maior conectividade, automação e análise de dados em tempo real. No entanto, para garantir o sucesso dessas aplicações, as empresas precisam contar com infraestruturas de nuvem confiáveis e robustas. Nesse contexto, os Acordos de Nível de Serviço (SLAs) fornecidos pelos principais provedores de serviços de nuvem — **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — desempenham um papel fundamental ao oferecer garantias de **disponibilidade**, **desempenho** e **suporte técnico**.
+
+A **IIoT** exige um nível de confiabilidade que permite que dispositivos conectados operem com alta eficiência e mínima interrupção, especialmente em ambientes industriais onde falhas podem resultar em impactos financeiros substanciais. Por isso, a avaliação crítica das **garantias de serviço (SLAs)** oferecidas por esses provedores é essencial para determinar qual plataforma atende melhor às necessidades das **indústrias 4.0**.
+
+Este artigo propõe uma **análise comparativa dos SLAs** desses três provedores, focando nas diferenças nas **garantias de disponibilidade**, políticas de **créditos de serviço**, exclusões e **suporte técnico**. Com base nessa análise, forneceremos recomendações para as empresas que desejam implementar soluções IIoT, alinhadas com as evidências coletadas.
+
+Para sustentar essa análise, utilizamos como base estudos recentes sobre o impacto das **tecnologias IIoT na produção industrial** e o papel crítico que a **infraestrutura de nuvem** tem desempenhado nessa revolução digital (Al-Fuqaha et al., 2015; Gubbi et al., 2013). Além disso, consideramos relatórios técnicos dos próprios provedores de nuvem, que detalham os SLAs e as condições oferecidas para aplicações industriais.
+
+## Referências
+- Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**.
+- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. **Future Generation Computer Systems**.
