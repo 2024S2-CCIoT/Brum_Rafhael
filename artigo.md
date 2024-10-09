@@ -430,8 +430,3 @@ Além disso, foram considerados os **fatores regionais** que afetam a implementa
 - Google Cloud. (2024). **Service Level Agreement for Google Cloud IoT Core**. Disponível em: <https://cloud.google.com/terms/sla>.  Acesso em: 4 de setembro de 2024.
 - Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. **Future Generation Computer Systems**, 29(7), 1645-1660.
 - Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**, 17(4), 2347-2376.
-
-
-## Referências
-- Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**.
-- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. **Future Generation Computer Systems**.
