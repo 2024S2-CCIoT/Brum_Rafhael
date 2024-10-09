@@ -385,11 +385,52 @@ resposta que variam de acordo com o plano escolhido:
 
 As **aplicações industriais de Internet das Coisas (IIoT)** vêm transformando os processos de manufatura e produção, promovendo maior conectividade, automação e análise de dados em tempo real. No entanto, para garantir o sucesso dessas aplicações, as empresas precisam contar com infraestruturas de nuvem confiáveis e robustas. Nesse contexto, os Acordos de Nível de Serviço (SLAs) fornecidos pelos principais provedores de serviços de nuvem — **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — desempenham um papel fundamental ao oferecer garantias de **disponibilidade**, **desempenho** e **suporte técnico**.
 
+Essas **Aplicações Industriais IoT (IIoT)** referem-se ao uso de sensores inteligentes, dispositivos, software e infraestrutura de rede em ambientes industriais para conectar máquinas e sistemas, permitindo o monitoramento, controle e automação de processos industriais. Ao contrário da IoT voltada para o consumidor, que abrange dispositivos como dispositivos vestíveis e casas inteligentes, o IIoT é focado em aumentar a eficiência operacional, reduzir custos e melhorar a segurança nos setores industriais, como manufatura, energia, transporte, e infraestrutura.
+
 A **IIoT** exige um nível de confiabilidade que permite que dispositivos conectados operem com alta eficiência e mínima interrupção, especialmente em ambientes industriais onde falhas podem resultar em impactos financeiros substanciais. Por isso, a avaliação crítica das **garantias de serviço (SLAs)** oferecidas por esses provedores é essencial para determinar qual plataforma atende melhor às necessidades das **indústrias 4.0**.
 
-Este artigo propõe uma **análise comparativa dos SLAs** desses três provedores, focando nas diferenças nas **garantias de disponibilidade**, políticas de **créditos de serviço**, exclusões e **suporte técnico**. Com base nessa análise, forneceremos recomendações para as empresas que desejam implementar soluções IIoT, alinhadas com as evidências coletadas.
+Este artigo propõe uma **análise comparativa dos SLAs** desses três provedores, focando nas diferenças nas **garantias de disponibilidade**, políticas de **créditos de serviço**, exclusões e **suporte técnico**. Além de fornecer uma análise técnica, o objetivo deste estudo é **auxiliar empresas e consumidores na escolha da plataforma de nuvem que melhor atende às suas necessidades específicas**, garantindo que a solução seja adequada tanto em termos de confiabilidade quanto de custo-benefício.
 
 Para sustentar essa análise, utilizamos como base estudos recentes sobre o impacto das **tecnologias IIoT na produção industrial** e o papel crítico que a **infraestrutura de nuvem** tem desempenhado nessa revolução digital (Al-Fuqaha et al., 2015; Gubbi et al., 2013). Além disso, consideramos relatórios técnicos dos próprios provedores de nuvem, que detalham os SLAs e as condições oferecidas para aplicações industriais.
+
+
+# Metodologia
+
+Para realizar uma **comparação crítica** entre os Acordos de Nível de Serviço (SLAs) dos principais provedores de nuvem — **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — com foco em **aplicações industriais de Internet das Coisas (IIoT)**, seguimos uma abordagem baseada em coleta de dados de fontes documentadas e análise criteriosa dos contratos de serviço oferecidos por cada provedor.
+
+### Coleta de Dados
+
+A coleta de dados foi realizada a partir de documentos públicos fornecidos pelos próprios provedores de nuvem, como páginas de SLA, manuais técnicos e documentação específica de serviços. Foram analisados os serviços mais relevantes para aplicações IIoT em cada plataforma, tais como:
+
+- **Amazon Web Services (AWS):** AWS IoT Core, AWS Greengrass, AWS SiteWise, e Amazon EC2.
+- **Microsoft Azure:** Azure IoT Hub, Azure IoT Edge, Azure Digital Twins, e Azure Virtual Machines (VMs).
+- **Google Cloud Platform (GCP):** Google Cloud IoT Core, Google Cloud IoT Edge, Google Cloud Bigtable, e Google Compute Engine.
+
+Focamos em **quatro dimensões principais** para essa análise:
+
+1. **Disponibilidade Garantida**: Avaliamos o nível de disponibilidade prometido por cada serviço, expressado em porcentagem, para identificar qual provedor oferece o maior uptime em seus serviços críticos para IIoT.
+
+2. **Exclusões dos SLAs**: Identificamos as situações em que o provedor não oferece compensações, como manutenção programada, eventos de força maior e falhas de terceiros. Isso é relevante, pois define os limites das garantias oferecidas.
+
+3. **Créditos de Serviço**: Analisamos os créditos fornecidos em caso de não cumprimento das metas de disponibilidade, observando os percentuais de reembolso e os requisitos para solicitar esses créditos.
+
+4. **Níveis de Suporte Técnico**: Avaliamos os tempos de resposta oferecidos por cada provedor para diferentes níveis de suporte (básico, empresarial, etc.), uma vez que o tempo de resposta pode ser crítico para manter o funcionamento contínuo de uma aplicação industrial.
+
+### Critérios de Comparação
+
+A comparação foi feita a partir de critérios de interesse direto para aplicações IIoT, considerando as características específicas dessas soluções, como a necessidade de alta **confiabilidade**, **baixa latência** e **disponibilidade constante**. As quatro dimensões escolhidas (disponibilidade, exclusões, créditos e suporte) refletem os aspectos mais importantes para garantir a **continuidade operacional** e **eficiência** dos sistemas IoT industriais.
+
+Além disso, foram considerados os **fatores regionais** que afetam a implementação de IIoT em diferentes localidades, uma vez que os SLAs podem variar dependendo da localização geográfica do data center e da proximidade dos dispositivos IoT.
+
+
+### Referências
+
+- Amazon Web Services. (2024). **Service Level Agreement (SLA) for AWS IoT Core**. Disponível em: <https://aws.amazon.com/iot-core/sla/>. Acesso em: 21 de agosto de 2024.
+- Microsoft Azure. (2024). **Service Level Agreements for Azure**. Disponível em: <https://azure.microsoft.com/en-us/support/legal/sla/>. Acesso em: 28 de agosto de 2024.
+- Google Cloud. (2024). **Service Level Agreement for Google Cloud IoT Core**. Disponível em: <https://cloud.google.com/terms/sla>.  Acesso em: 4 de setembro de 2024.
+- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. **Future Generation Computer Systems**, 29(7), 1645-1660.
+- Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**, 17(4), 2347-2376.
+
 
 ## Referências
 - Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**.
