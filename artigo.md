@@ -423,10 +423,72 @@ A comparação foi feita a partir de critérios de interesse direto para aplica�
 Além disso, foram considerados os **fatores regionais** que afetam a implementação de IIoT em diferentes localidades, uma vez que os SLAs podem variar dependendo da localização geográfica do data center e da proximidade dos dispositivos IoT.
 
 
+# Análise e Discussão
+
+Nesta seção, será feita uma análise comparativa dos **Acordos de Nível de Serviço (SLAs)** dos três principais provedores de nuvem — **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — para **aplicações IIoT industriais**. O foco estará nas garantias de **disponibilidade**, **políticas de créditos de serviço**, **exclusões** e **suporte técnico**, buscando determinar qual solução é mais adequada para diferentes cenários.
+
+## 1. Garantias de Disponibilidade
+
+A disponibilidade é um fator essencial para as **aplicações IIoT industriais**, pois interrupções podem causar prejuízos significativos às operações. Os três provedores oferecem SLAs bastante semelhantes em termos de disponibilidade, com pequenas variações:
+
+- **AWS**: Garante uma disponibilidade mensal de 99.9% para o **IoT Core**, **Greengrass** e **SiteWise**, e 99.99% para instâncias **EC2** em múltiplas zonas de disponibilidade.
+- **Azure**: Oferece 99.9% de disponibilidade para **IoT Hub**, **IoT Edge** e **Digital Twins**, além de 99.99% para **Virtual Machines** em múltiplas zonas de disponibilidade.
+- **GCP**: Proporciona 99.9% para o **Cloud IoT Core** e **Cloud IoT Edge**, e 99.99% para **Compute Engine** em múltiplas zonas.
+
+A principal diferença aqui está na oferta de serviços. Enquanto a AWS oferece uma gama de serviços específicos para **IIoT**, como o **Greengrass** para computação na borda, a Azure se destaca com o **Digital Twins**, que facilita a criação de representações digitais de sistemas industriais complexos. O **GCP**, por outro lado, oferece uma alta disponibilidade para processamento de grandes volumes de dados, uma necessidade comum em aplicações industriais.
+
+### Comparação Crítica
+Apesar da similaridade das garantias de disponibilidade, as **infraestruturas de borda** oferecidas por AWS e Azure podem proporcionar uma vantagem em termos de latência e resposta em tempo real. Isso é particularmente importante para indústrias que operam com **manutenção preditiva** ou **controle de qualidade em tempo real**.
+
+## 2. Políticas de Créditos de Serviço
+
+As políticas de créditos de serviço são acionadas quando o provedor não consegue cumprir a disponibilidade mínima garantida. As políticas são relativamente padronizadas entre os provedores, com a AWS e a Azure oferecendo **até 25% de crédito** para disponibilidade inferior a 99%, e a GCP oferecendo até **50% de crédito** para disponibilidade abaixo de 95%. 
+
+No entanto, a **AWS** e a **Azure** se destacam por oferecer créditos mais significativos para pequenas falhas de disponibilidade (entre 99.0% e 99.9%), enquanto o GCP tem políticas mais agressivas em situações de indisponibilidade grave.
+
+### Comparação Crítica
+Para aplicações industriais que demandam **alta confiabilidade** e **tolerância a falhas**, o GCP pode ser mais vantajoso em casos extremos de falhas, uma vez que oferece **créditos maiores** em cenários críticos. Já a **AWS** e a **Azure** são mais atraentes em casos de interrupções menores, garantindo compensações para falhas menos graves.
+
+## 3. Exclusões dos SLAs
+
+Os três provedores também compartilham exclusões similares em seus SLAs, incluindo:
+- **Manutenção programada**: Não conta para a disponibilidade.
+- **Eventos de força maior**, como desastres naturais.
+- **Problemas externos**, como falhas em provedores de internet.
+
+Uma diferença notável é que a **Azure** menciona explicitamente que falhas causadas por **configurações incorretas do cliente** não são cobertas, algo que pode ser uma preocupação para indústrias que lidam com **configurações complexas de sistemas IIoT**.
+
+### Comparação Crítica
+Embora as exclusões sejam amplamente comparáveis, o foco da Azure em **configurações incorretas** pode ser visto como uma desvantagem, pois isso coloca uma responsabilidade adicional sobre os usuários que devem garantir que sua infraestrutura IIoT esteja perfeitamente configurada.
+
+## 4. Níveis de Suporte Técnico
+
+O suporte técnico é outro fator decisivo para aplicações industriais, que muitas vezes exigem uma **resposta rápida** para evitar interrupções prolongadas.
+
+- **AWS**: Oferece tempos de resposta que variam de **12 horas** no nível **Developer** a **15 minutos** no nível **Enterprise**.
+- **Azure**: Proporciona tempos de resposta de **8 horas** no nível **Developer** a **15 minutos** no nível **Premier**.
+- **GCP**: Garante suporte de até **4 horas** no nível **Standard** e **15 minutos** no nível **Premium**.
+
+### Comparação Crítica
+Neste quesito, a **AWS** e a **Azure** oferecem uma maior variedade de níveis de suporte, enquanto o **GCP** é mais limitado, especialmente em níveis mais básicos. Indústrias que dependem de uma infraestrutura crítica em tempo real podem preferir a **AWS** ou **Azure** devido à maior flexibilidade nos níveis de suporte.
+
+## 5. Serviços Relevantes para Aplicações IIoT
+
+Cada provedor oferece um conjunto de serviços especializados para suportar **aplicações IIoT**:
+- **AWS**: Se destaca com **IoT Core**, **Greengrass** (computação na borda), e **SiteWise** (monitoramento e análise de dados industriais).
+- **Azure**: Oferece **IoT Hub**, **IoT Edge** e **Digital Twins**, com foco na **modelagem digital** de ambientes industriais.
+- **GCP**: Com **Cloud IoT Core**, **Cloud IoT Edge** e **Bigtable**, foca no **armazenamento e processamento de grandes volumes de dados** gerados por dispositivos IIoT.
+
+### Comparação Crítica
+Cada provedor apresenta soluções fortes, porém distintas. A **AWS** é a melhor escolha para indústrias que precisam de uma infraestrutura de borda robusta, enquanto a **Azure** se destaca para quem deseja criar **gêmeos digitais** e simular ambientes industriais. O **GCP**, por sua vez, é ideal para empresas que trabalham com **análise de grandes volumes de dados**, como sensores distribuídos.
+
+---
+
+
 ### Referências
 
 - Amazon Web Services. (2024). **Service Level Agreement (SLA) for AWS IoT Core**. Disponível em: <https://aws.amazon.com/iot-core/sla/>. Acesso em: 21 de agosto de 2024.
 - Microsoft Azure. (2024). **Service Level Agreements for Azure**. Disponível em: <https://azure.microsoft.com/en-us/support/legal/sla/>. Acesso em: 28 de agosto de 2024.
 - Google Cloud. (2024). **Service Level Agreement for Google Cloud IoT Core**. Disponível em: <https://cloud.google.com/terms/sla>.  Acesso em: 4 de setembro de 2024.
-- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. **Future Generation Computer Systems**, 29(7), 1645-1660.
-- Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. **IEEE Communications Surveys & Tutorials**, 17(4), 2347-2376.
+- Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. *IEEE Communications Surveys & Tutorials, 17*(4), 2347–2376. <https://doi.org/10.1109/COMST.2015.2444095> Acessado em: 02 de outubro de 2024.
+- Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. *Future Generation Computer Systems, 29*(7), 1645-1660. <https://doi.org/10.1016/j.future.2013.01.010> Acessado em: 02 de outubro de 2024.
