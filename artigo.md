@@ -385,13 +385,14 @@ resposta que variam de acordo com o plano escolhido:
 
 As **aplicações industriais de Internet das Coisas (IIoT)** vêm transformando os processos de manufatura e produção, promovendo maior conectividade, automação e análise de dados em tempo real. No entanto, para garantir o sucesso dessas aplicações, as empresas precisam contar com infraestruturas de nuvem confiáveis e robustas. Nesse contexto, os Acordos de Nível de Serviço (SLAs) fornecidos pelos principais provedores de serviços de nuvem — **Amazon Web Services (AWS)**, **Microsoft Azure** e **Google Cloud Platform (GCP)** — desempenham um papel fundamental ao oferecer garantias de **disponibilidade**, **desempenho** e **suporte técnico**.
 
-Essas **Aplicações Industriais IoT (IIoT)** referem-se ao uso de sensores inteligentes, dispositivos, software e infraestrutura de rede em ambientes industriais para conectar máquinas e sistemas, permitindo o monitoramento, controle e automação de processos industriais. Ao contrário da IoT voltada para o consumidor, que abrange dispositivos como dispositivos vestíveis e casas inteligentes, o IIoT é focado em aumentar a eficiência operacional, reduzir custos e melhorar a segurança nos setores industriais, como manufatura, energia, transporte, e infraestrutura.
+Essas **Aplicações Industriais IoT (IIoT)** referem-se ao uso de sensores inteligentes, dispositivos, software e infraestrutura de rede em ambientes industriais para conectar máquinas e sistemas, permitindo o monitoramento, controle e automação de processos industriais. Ao contrário da IoT voltada para o consumidor, que abrange dispositivos como dispositivos vestíveis e casas inteligentes, o IIoT é focado em aumentar a eficiência operacional, reduzir custos e melhorar a segurança nos setores industriais, como manufatura, energia, transporte, e infraestrutura. Exemplos de Aplicações IIoT incluem **manutenção preditiva**, **automação de fábricas**, **gestão de energia** e **controle de qualidade em tempo real**, todos impulsionados por dados gerados por sensores conectados (McKinsey, 2024).
 
 A **IIoT** exige um nível de confiabilidade que permite que dispositivos conectados operem com alta eficiência e mínima interrupção, especialmente em ambientes industriais onde falhas podem resultar em impactos financeiros substanciais. Por isso, a avaliação crítica das **garantias de serviço (SLAs)** oferecidas por esses provedores é essencial para determinar qual plataforma atende melhor às necessidades das **indústrias 4.0**.
 
 Este artigo propõe uma **análise comparativa dos SLAs** desses três provedores, focando nas diferenças nas **garantias de disponibilidade**, políticas de **créditos de serviço**, exclusões e **suporte técnico**. Além de fornecer uma análise técnica, o objetivo deste estudo é **auxiliar empresas e consumidores na escolha da plataforma de nuvem que melhor atende às suas necessidades específicas**, garantindo que a solução seja adequada tanto em termos de confiabilidade quanto de custo-benefício.
 
 Para sustentar essa análise, utilizamos como base estudos recentes sobre o impacto das **tecnologias IIoT na produção industrial** e o papel crítico que a **infraestrutura de nuvem** tem desempenhado nessa revolução digital (Al-Fuqaha et al., 2015; Gubbi et al., 2013). Além disso, consideramos relatórios técnicos dos próprios provedores de nuvem, que detalham os SLAs e as condições oferecidas para aplicações industriais.
+
 
 
 # Metodologia
@@ -603,9 +604,9 @@ Por fim, a análise crítica dos SLAs, das opções de suporte e dos benefícios
 
 - Amazon Web Services. (2024). **Service Level Agreement (SLA) for AWS IoT Core**. Disponível em: <https://aws.amazon.com/iot-core/sla/>. Acesso em: 21 de agosto de 2024.
 - Microsoft Azure. (2024). **Service Level Agreements for Azure**. Disponível em: <https://azure.microsoft.com/en-us/support/legal/sla/>. Acesso em: 28 de agosto de 2024.
-- Google Cloud. (2024). **Service Level Agreement for Google Cloud IoT Core**. Disponível em: <https://cloud.google.com/terms/sla>.  Acesso em: 4 de setembro de 2024.
+- Google Cloud. (2024). **Service Level Agreement for Google Cloud IoT Core**. Disponível em: <https://cloud.google.com/terms/sla>. Acesso em: 4 de setembro de 2024.
+- McKinsey & Company. (2024). What is the Internet of Things? Disponível em: <https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-the-internet-of-things>. Acesso em: 18 de setembro de 2024.
 - Al-Fuqaha, A., Guizani, M., Mohammadi, M., Aledhari, M., & Ayyash, M. (2015). Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications. *IEEE Communications Surveys & Tutorials, 17*(4), 2347–2376. <https://doi.org/10.1109/COMST.2015.2444095> Acesso em: 02 de outubro de 2024.
 - Gubbi, J., Buyya, R., Marusic, S., & Palaniswami, M. (2013). Internet of Things (IoT): A Vision, Architectural Elements, and Future Directions. *Future Generation Computer Systems, 29*(7), 1645-1660. <https://doi.org/10.1016/j.future.2013.01.010> Acesso em: 02 de outubro de 2024.
 - ProsperOps. (2024). *AWS vs. Google Cloud vs. Azure: A Detailed Breakdown*. Disponível em: <https://www.prosperops.com>. Acesso em: 20 de novembro de 2024.
 - CapitalNumbers. (2024). *AWS vs Azure vs Google Cloud Platform: A Detailed Comparison*. Disponível em: <https://www.capitalnumbers.com>. Acesso em: 20 de novembro de 2024.
-
