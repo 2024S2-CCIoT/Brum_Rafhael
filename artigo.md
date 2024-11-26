@@ -150,7 +150,7 @@ Referências:
       uma limitação para empresas que precisam de uma solução mais
       integrada e abrangente.
 
-### ** **Resumindo (****Análise Comparativa: Pontos Fortes e Fracos****)**** {#resumindo-análise-comparativa-pontos-fortes-e-fracos}
+### ** **Resumindo (****Análise Comparativa: Pontos Fortes e Fracos****)****
 
 Embora à primeira vista os SLAs de AWS, Azure e GCP pareçam bastante
 semelhantes, existem diferenças sutis que podem influenciar a decisão de
