@@ -588,7 +588,7 @@ Selecionar a nuvem ideal para uma aplicação IIoT envolve uma análise criterio
 - **Alternativa**: Escolha AWS ou Azure caso a robustez e o suporte técnico justifiquem custos mais altos.
 
 
-**Conclusão**
+# **Conclusão**
 
 Ao comparar os principais provedores de nuvem – AWS, Azure e Google Cloud – observamos que, embora todos ofereçam soluções robustas e de alto desempenho, existem diferenças significativas em relação à disponibilidade, suporte técnico e créditos de serviço, o que pode influenciar a escolha do provedor dependendo das necessidades específicas de cada empresa. A AWS, com sua ampla cobertura global e serviços inovadores, se destaca em setores que exigem escalabilidade e flexibilidade. Por outro lado, o Google Cloud se especializa em inteligência artificial e análise de dados, oferecendo uma infraestrutura otimizada para desenvolvedores e empresas focadas em inovação tecnológica, conforme destacam ProsperOps (2024) e CapitalNumbers (2024). Já o Azure, com uma forte integração com a Microsoft, é uma excelente opção para empresas que já utilizam seus produtos, além de oferecer vantagens em ambientes híbridos.
 
