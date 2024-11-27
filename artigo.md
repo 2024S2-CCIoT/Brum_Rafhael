@@ -485,7 +485,7 @@ Cada provedor apresenta soluções fortes, porém distintas. A **AWS** é a melh
 
 | **Critério**                 | **AWS (Amazon Web Services)**                     | **Azure (Microsoft)**                             | **Google Cloud (GCP)**                         |
 |------------------------------|--------------------------------------------------|--------------------------------------------------|------------------------------------------------|
-| **Disponibilidade**           | 99.99% (em muitos serviços, como EC2 e S3)      | 99.9% a 99.99%, dependendo do serviço            | 99.9% a 99.99%, dependendo do serviço          |
+| **Disponibilidade**           | 99.9% a 99.99%, dependendo do serviço      | 99.9% a 99.99%, dependendo do serviço            | 99.9% a 99.99%, dependendo do serviço          |
 | **Suporte Técnico**           | Suporte 24/7 com planos diferenciados: Básico, Developer, Business, Enterprise | Suporte 24/7 com planos: Developer, Standard, Professional Direct, Premier | Suporte 24/7 com planos: Basic, Development, Production |
 | **Créditos de Serviço**       | Créditos gratuitos para novos usuários (típico: $300 por 12 meses) | Créditos gratuitos para novos usuários (típico: $200 por 30 dias) | Créditos gratuitos para novos usuários (típico: $300 por 90 dias) |
 | **Uptime Garantido**          | SLAs de até 99.99% para serviços como EC2 e S3 | Garantia de uptime de até 99.9% para muitos serviços | Garantia de uptime de até 99.95% para serviços principais |
